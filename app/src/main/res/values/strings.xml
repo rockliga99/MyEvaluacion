@@ -1,0 +1,15 @@
+<resources>
+    <string name="MyEvaluacion">Series</string>
+    <string name="Nombre">Ingresar nombre</string>
+    <string name="Categoria">Ingresar categoria</string>
+    <string name="Protagonista">Protagonista</string>
+    <string name="AñoDeTransmisionInicial">Año de transmision inicial</string>
+    <string name="NumeroDeTemporadas">Temporadas</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="leerT">Mostrar</string>
+    <string name="LEER">Mostrar por IMAI</string>
+    <string name="ELIMINAR">ELIMINAR</string>
+    <string name="ELIMINART">ELIMINAR TODO</string>
+    <string name="ACTUALIZAR">ACTUALIZAR</string>
+    <string name="id">ID</string>
+</resources>

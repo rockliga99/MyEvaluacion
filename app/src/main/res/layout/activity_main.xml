@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="facci.pm.cedenoduenas.myevaluacion.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Nombre"
+                android:inputType="textAutoCorrect"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/Inombre"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Categoria"
+                android:inputType="textAutoCorrect"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/Icategoria"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Protagonista"
+                android:inputType="textAutoCorrect"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/Iprotagonista"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/AñoDeTransmisionInicial"
+                android:inputType="textAutoCorrect"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/Ianio"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/NumeroDeTemporadas"
+                android:inputType="textAutoCorrect"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/InumeroT"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/id"
+                android:inputType="number"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/Id"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Guardar"
+                android:text="@string/guardar"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LeerT"
+                android:text="@string/leerT"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Actualizar"
+                android:text="@string/ACTUALIZAR"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/EliminarT"
+                android:text="@string/ELIMINART"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Datos"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
